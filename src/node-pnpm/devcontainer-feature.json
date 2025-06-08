@@ -1,0 +1,23 @@
+{
+    "name": "Node.js with pnpm",
+    "id": "node-pnpm",
+    "version": "1.0.0",
+    "description": "Installs Node.js and pnpm package manager",
+    "options": {
+        "nodeVersion": {
+            "type": "string",
+            "default": "lts",
+            "description": "Select or enter a Node.js version to install. Use 'lts' for latest LTS, or specify exact version (e.g., '22.16.0')."
+        },
+        "pnpmVersion": {
+            "type": "string",
+            "default": "",
+            "description": "Select or enter a pnpm version to install. Leave empty for the latest version, or specify exact version (e.g., '10.11.1')."
+        },
+        "installPackages": {
+            "type": "string",
+            "default": "",
+            "description": "Optional space-separated list of npm packages to install globally using pnpm (e.g., 'typescript eslint prettier')."
+        }
+    }
+}
