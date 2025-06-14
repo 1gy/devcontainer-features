@@ -6,6 +6,7 @@ set -e
 source dev-container-features-test-lib
 
 # Definition specific tests
+check "pnpm store path" bash -c 'pnpm store path | grep -q "$HOME/.pnpm-store"'
 check "node version" node --version
 check "pnpm version" pnpm --version
 

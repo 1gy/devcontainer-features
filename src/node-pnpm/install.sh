@@ -21,6 +21,9 @@ curl -fsSL https://get.pnpm.io/install.sh | env PNPM_HOME="\${HOME}/.pnpm" PNPM_
 export PNPM_HOME="\${HOME}/.pnpm"
 export PATH="\${PNPM_HOME}:\${PATH}"
 
+# Configure pnpm
+pnpm config set store-dir "\${HOME}/.pnpm-store" --global
+
 # Install node
 pnpm env use --global ${NODE_VERSION}
 

@@ -1,7 +1,7 @@
 {
     "name": "Node.js with pnpm",
     "id": "node-pnpm",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Installs Node.js and pnpm package manager",
     "options": {
         "nodeVersion": {
