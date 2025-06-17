@@ -34,6 +34,7 @@ jobs:
       matrix:
         features:
           - node-pnpm
+          - lightpanda
     steps:
       - uses: actions/checkout@v4
 

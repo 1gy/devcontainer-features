@@ -1,0 +1,8 @@
+{
+    "name": "Lightpanda",
+    "id": "lightpanda",
+    "version": "0.0.1",
+    "description": "Installs Lightpanda headless browser",
+    "options": {},
+    "privileged": true
+}
