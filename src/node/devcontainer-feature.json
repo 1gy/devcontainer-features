@@ -12,7 +12,7 @@
         "installPackages": {
             "type": "string",
             "default": "",
-            "description": "Optional space-separated list of npm packages to install globally using pnpm (e.g., 'typescript eslint prettier')."
+            "description": "Optional space-separated list of npm packages to install globally using npm (e.g., 'typescript eslint prettier')."
         }
     }
 }
