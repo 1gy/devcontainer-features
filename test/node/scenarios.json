@@ -2,7 +2,7 @@
     "scenarios/install_global_packages": {
         "image": "debian:latest",
         "features": {
-            "node-pnpm": {
+            "node": {
                 "installPackages": "typescript eslint prettier"
             }
         }
